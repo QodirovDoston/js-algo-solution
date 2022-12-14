@@ -1,4 +1,4 @@
-# [1 Return the Sum of Two Numbers](https://edabit.com/challenge/3LpBLgNRyaHMvNb4j)
+## [1 Return the Sum of Two Numbers](https://edabit.com/challenge/3LpBLgNRyaHMvNb4j)
 
 ## answer
 ```js
@@ -8,9 +8,9 @@ function addition(a, b) {
 console.log(addition(3, 2))
 ```
 
-# [2 Return the Next Number from the Integer Passed](https://edabit.com/challenge/NAQhEoxbofPidLxm9)
+## [2 Return the Next Number from the Integer Passed](https://edabit.com/challenge/NAQhEoxbofPidLxm9)
 
-## answer
+### answer
 
 ```js 
 function addition(num) {
@@ -19,9 +19,9 @@ function addition(num) {
 ```
 
 
-# [ 3 Convert Age to Days](https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw)
+## [ 3 Convert Age to Days](https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw)
 
-## Answer
+**Answer**
 ```js
 function calcAge(age) {
 	return age* 365
@@ -30,9 +30,9 @@ console.log(calcAge(1) )
 ```
 
 
-# [4 Power Calculator](https://edabit.com/challenge/wAdE9te55cowBLcPs)
+## [4 Power Calculator](https://edabit.com/challenge/wAdE9te55cowBLcPs)
 
-## Answer
+**Answer**
 
 ```js
 function circuitPower(voltage, current) {
@@ -42,18 +42,18 @@ circuitPower(230,10)
 ```
 
 
-# 5 [ Maximum Edge of a Triangle](https://edabit.com/challenge/nhXofMMyrowMyr9Nv)
+## 5 [ Maximum Edge of a Triangle](https://edabit.com/challenge/nhXofMMyrowMyr9Nv)
 
-# answer
+**answer**
 ```js 
 function nextEdge(side1, side2) {
 	return side1+side2 -1
 }
 nextEdge(11, 17)
 ```
-# 6 [Find the Perimeter of a Rectangle](https://edabit.com/challenge/XnJ24rWW7iJkNrtsh)
+## 6 [Find the Perimeter of a Rectangle](https://edabit.com/challenge/XnJ24rWW7iJkNrtsh)
 
-## answer
+**answer**
 
 ```js
 function findPerimeter(length, width) {
@@ -61,7 +61,8 @@ function findPerimeter(length, width) {
 }
 findPerimeter(77, 3)
 ```
-# 7 [https://edabit.com/challenge/8q54MKnRrm89pSLmW](https://edabit.com/challenge/8q54MKnRrm89pSLmW)
+## 7 [https://edabit.com/challenge/8q54MKnRrm89pSLmW](https://edabit.com/challenge/8q54MKnRrm89pSLmW)
+**answer**
 
 ```js
 function convert(minutes) {
@@ -69,7 +70,8 @@ function convert(minutes) {
 }
 convert(5)
 ```
-# 8 [Area of a Triangle](https://edabit.com/challenge/3CaszbdZYGN4otQD8)
+## 8 [Area of a Triangle](https://edabit.com/challenge/3CaszbdZYGN4otQD8)
+**Answer**
 
 ```js 
 function triArea(base, height) {
@@ -78,7 +80,8 @@ function triArea(base, height) {
 triArea(4, 3) 
 ```
 
-# [9 Return the First Element in an Array](https://edabit.com/challenge/QaApgtePE6QrCZ64o)
+## [9 Return the First Element in an Array](https://edabit.com/challenge/QaApgtePE6QrCZ64o)
+**Answer**
 
 ```js
 function getFirstValue(arr) {
@@ -86,7 +89,8 @@ function getFirstValue(arr) {
 }
 ```
 
-# [10 Convert Hours into Seconds](https://edabit.com/challenge/6AnQqiEjkJdZrWhPS)
+## [10 Convert Hours into Seconds](https://edabit.com/challenge/6AnQqiEjkJdZrWhPS)
+**Answer**
 ```js
 function howManySeconds(hours) {
 	return (hours* 3600)
@@ -96,7 +100,8 @@ console.log(howManySeconds(2))
 ```
 
 
-# [11 Return the Remainder from Two Numbers](https://edabit.com/challenge/Q2j5FTFtsk7PdzrQk)
+## [11 Return the Remainder from Two Numbers](https://edabit.com/challenge/Q2j5FTFtsk7PdzrQk)
+**Answer**
 ```js
 function remainder(x, y) {
 	return x%y
@@ -105,11 +110,23 @@ console.log( remainder(1, 3))
 ```
 
 
-# [12 Return Something to Me!](https://edabit.com/challenge/MvZK536X7fyrWH8Qc)
+## [12 Return Something to Me!](https://edabit.com/challenge/MvZK536X7fyrWH8Qc)
+**Answer**
 
 ```js
 function giveMeSomething(a) {
 	return  `something ${a}`
 }
 giveMeSomething("doston")
+```
+
+## [13 Get data ]
+
+**Answer**
+```js
+ let data = new Date();
+ let hour = data.getHours();
+ let minut = data.getMinutes();
+ console.log("Hours:",hour,"Minut:",minut);
+
 ```
