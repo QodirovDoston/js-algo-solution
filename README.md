@@ -120,7 +120,7 @@ function giveMeSomething(a) {
 giveMeSomething("doston")
 ```
 
-## [13 Get data ]
+## 13 Get data 
 
 **Answer**
 ```js
