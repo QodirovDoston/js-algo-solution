@@ -107,3 +107,26 @@
 // var a = (typeof(x));
 
 // console.log(a);
+
+//let gretign 
+//greting={}
+//console.log(greting);
+
+// sessionStorage.setItem(
+//     'cool_secret', 123
+// );
+// console.log(sessionStorage.setItem());
+
+
+function word(s) {
+    let str =["one","two","three","four"]
+    let int =[1,2,3,4];
+    for (let j = 0; j < int.length; j++) {
+    for (let i = 0; i < str.length; i++) {
+
+        if(s === str[i]){
+            return int[j]
+        }
+    } 
+    }
+}
