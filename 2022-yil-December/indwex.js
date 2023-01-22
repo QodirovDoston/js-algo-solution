@@ -90,7 +90,7 @@
 // function  myFunction(arr,d ){
 //     return arr[d-1]   
 //  } 
- 
+
 //  console.log( myFunction("axxa",1));
 
 // function myFunction(ar){
@@ -118,15 +118,70 @@
 // console.log(sessionStorage.setItem());
 
 
-function word(s) {
-    let str =["one","two","three","four"]
-    let int =[1,2,3,4];
-    for (let j = 0; j < int.length; j++) {
-    for (let i = 0; i < str.length; i++) {
+// function word(s) {
+//     let str =["one","two","three","four"]
+//     let int =[1,2,3,4];
+//     for (let j = 0; j < int.length; j++) {
+//     for (let i = 0; i < str.length; i++) {
 
-        if(s === str[i]){
-            return int[j]
-        }
-    } 
-    }
+//         if(s === str[i]){
+//             return int[j]
+//         }
+//     } 
+//     }
+// }
+
+
+
+
+// function math(s)
+// if(s>0){
+//     return ((5*s)+1)
+// }else{
+//     return 0
+// }
+// console.log(math(2));
+
+
+// function bitwiseAND(n1, n2) {
+// 	return n1 & n2 
+// }
+// console.log(bitwiseAND(7, 12))
+
+// function bitwiseOR(n1, n2) {
+// 	return n1 | n2
+// }
+// console.log(bitwiseOR(7, 12)) 
+
+// function bitwiseXOR(n1, n2) {
+// 	return n1 ^ n2
+// }
+// console.log(bitwiseXOR(7, 12))
+
+
+
+// function minMax(arr) {
+// 	return arr.Math.min(), arr.Math.max()
+// }
+// console.log(minMax([1, 2, 3, 4, 5]))
+
+// class user {
+// 	 Person(name, age)	
+// }
+// Person("doston",23)
+// console.log(`salom mening ismim ${name}`);
+
+// function addition(num) {
+// 	return ++num
+// } 
+// console.log(addition(2));
+
+
+let a = [10, 24, 3, 5, 7, 8, 9,]
+let min = arr[0]
+for (let i = 0; i <= arr.length; i++) {
+	if (arr[i] < min) {
+		min = arr[i];
+	}
 }
+console.log(min);
