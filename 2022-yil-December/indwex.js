@@ -364,12 +364,12 @@
 // 	}
 // 	error(2)
 
-function largestSwap(num) {
-	let num1 = num.reverse()
-	if( num1 < num ){
-		return true;
-	}else (num1 > num){
-		return false;
-	}
-}
-console.log(largestSwap(23));
+// function largestSwap(num) {
+// 	let num1 = num.reverse()
+// 	if( num1 < num ){
+// 		return true;
+// 	}else (num1 > num){
+// 		return false;
+// 	}
+// }
+// console.log(largestSwap(23));
